@@ -1,0 +1,166 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+.bg-yellow {
+  background: rgb(0, 0, 0);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.content-homepage {
+  color: black !important;
+  padding-top: 04%;
+  padding-bottom: 04%;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navbar a {
+  font-family: "Comfortaa", cursive !important;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  height: 100%;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 720px;
+  height: 825px;
+}
+
+.centered h2 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bolder;
+  font-size: 75px;
+}
+.centered p {
+  font-size: 15px;
+  font-family: "Comfortaa", cursive !important;
+  font-style: normal;
+}
+.home {
+  width: auto;
+  height: auto;
+}
+.login-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://images.pexels.com/photos/709816/pexels-photo-709816.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500)
+    no-repeat;
+  background-size: cover;
+}
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-family: "Comfortaa" "cursive";
+}
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+input.error {
+  border: 1px solid red;
+}
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+.firstname {
+  margin-right: 1%;
+}
+.firstname,
+.lastname,
+.email,
+.phone,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.email,
+.firstname,
+.lastname,
+.phone,
+.password {
+  width: 100%;
+}
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.role-dropdown {
+  display: flex;
+  width: 100%;
+}
+.role-dropdown label {
+  color: white;
+  font-size: 16px;
+}
+.aboutus h1 {
+  color: black;
+}

@@ -1,0 +1,12 @@
+
+  .blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+.blogs{
+    overflow-x: visible;
+    
+}
